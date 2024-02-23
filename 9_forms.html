@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Forms</title>
+   </head>
+	
+   <body>
+
+      <form>
+        <h4> Forms </h4>
+         First name: <input type = "text" name = "first_name" placeholder="Enter First Name" />
+         <br>
+         Last name: <input type = "text" name = "last_name" placeholder="Enter Last Name"/>
+         <br>
+         Password: <input type = "password" name = "password"  placeholder="Enter strong password" />
+        <br>
+
+        <p> Choose atleast two... </p>
+        <input type = "checkbox" name = "frontend" value="frontend" /> Frontend
+        <input type = "checkbox" name = "backend" value="backend"/> Backend
+        <input type = "checkbox" name = "database" value="database"/> Database
+         
+        <p> Choose which core course you had taken</p>
+        <input type = "radio" name = "compilers" value="CP"> Computer Programming
+        <input type = "radio" name = "compilers" value="compilers"> Compilers
+
+        <br>
+        <br>
+        <p> Choose which semester</p>
+        <select name = "dropdown">
+            <option value = "Fall" selected>Fall</option>
+            <option value = "Spring">Spring</option>
+            <option value = "Summer">Summer</option>
+        </select>
+
+        <p> Upload your photo </p>
+        <input type = "file" name = "fileupload" accept = "image/*" />
+
+         <input type = "submit" name = "submit" value = "Submit" />
+         
+         <input type = "button" name = "ok" value = "OK" />
+         <!-- <input type = "image" name = "imagebutton" src = "obito.png" /> -->
+
+        <br>
+        <br>
+        Enter feedback: <br />
+         <textarea rows = "5" cols = "50" name = "description">
+            
+         </textarea>
+      </form>
+   </body>
+	
+</html>
